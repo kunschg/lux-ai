@@ -1,0 +1,12 @@
+rm submission.tar.gz
+tar -cvzf submission.tar.gz agent.py main.py instashallow/ lux/ best_model.zip
+
+# Full train M1
+cp logs/M1_10MIL_8-16-03-2023_00-37-51/models/best_model.zip best_model.zip
+
+# 20 Mil 1k 1k 8env
+cp logs/M1_20MIL_8_1K_1K-20-03-2023_19-18-41/models/best_model.zip best_model.zip
+
+# best p2 + opt lichen
+# Phase2: Best, Lichen Opt "1000 - step < water available"
+cp logs/M1_10MIL_8-16-03-2023_00-37-51/models/best_model.zip best_model.zip

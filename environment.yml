@@ -1,0 +1,24 @@
+name: deeprl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - numpy
+  - matplotlib
+  - scipy
+  - pip
+  - cython
+  - tqdm
+  - yaml
+  - gym=0.21
+  - stable-baselines3
+  - tensorboard
+  - jupyterlab
+
+  - pip:
+    - pettingzoo==1.12.0
+    - termcolor
+    - pygame
+    - vec_noise
+    - sb3-contrib
+    - luxai_s2
